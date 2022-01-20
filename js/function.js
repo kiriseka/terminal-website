@@ -213,6 +213,7 @@ document.addEventListener("DOMContentLoaded", function () {
         break;
 
       case "!help":
+      case "help":
       case "?":
         clearInput();
         postHelpList();
